@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "cwd": "/home/linzx6/code/my-blog",
+  "workspace": "main",
+  "session": "alias-d62e3019",
+  "sessionMode": "active-session",
+  "host": "",
+  "source": "manual",
+  "hostHint": "alias:d62e3019",
+  "aliases": {
+    "41797093": "alias-d62e3019",
+    "alias:d62e3019": "alias-d62e3019",
+    "d62e3019": "alias-d62e3019",
+    "session:41797093": "alias-d62e3019",
+    "session:c2a2e12c": "alias-d62e3019",
+    "c2a2e12c": "alias-d62e3019"
+  },
+  "cleanupCheckedAt": "2026-06-25T12:24:49.994Z",
+  "updatedAt": "2026-06-25T12:38:07.562Z"
+}
