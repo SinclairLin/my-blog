@@ -1,9 +1,7 @@
 ---
-title: Hello, Welcome
-description: An introduction to using the note feature in Astro Cactus
-publishDate: "2024-10-14T11:23:00Z"
+title: "博客初始化完成"
+description: "Astro Cactus 主题已经配置完成。"
+publishDate: "2026-06-25T20:50:00+08:00"
 ---
 
-Hi, Hello. This is an example note feature included with Astro Cactus 🌵
-
-They're for shorter, more concise posts that you'd like to share. They generally don't include headings, but hey, it's entirely up to you!
+博客已经完成基础配置：站点信息、文章目录、标签、RSS、站内搜索和生产构建都已可用。

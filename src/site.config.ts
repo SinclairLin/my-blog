@@ -2,26 +2,26 @@ import type { AstroExpressiveCodeOptions } from "astro-expressive-code";
 import type { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
-	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
-	url: "https://example.com/",
+	// Production origin. If you use a custom domain later, update this value.
+	url: "https://sinclairlin.github.io",
 	/*
 		- Used to construct the meta title property found in src/components/BaseHead.astro L:11
 		- The webmanifest name found in astro.config.ts L:42
 		- The link value found in src/components/layout/Header.astro L:35
 		- In the footer found in src/components/layout/Footer.astro L:12
 	*/
-	title: "My Blog",
+	title: "SinclairLin 的博客",
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-	author: "Your name here",
+	author: "SinclairLin",
 	// Used as the default description meta property and webmanifest description
-	description: "Welcome to my website!",
+	description: "记录技术、折腾与生活的个人博客。",
 	// HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
-	lang: "en-US",
+	lang: "zh-CN",
 	// Meta property, found in src/components/BaseHead.astro L:42
-	ogLocale: "en_US",
+	ogLocale: "zh_CN",
 	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
 	date: {
-		locale: "en-US",
+		locale: "zh-CN",
 		options: {
 			day: "numeric",
 			month: "short",
@@ -34,19 +34,19 @@ export const siteConfig: SiteConfig = {
 export const menuLinks: { path: string; title: string }[] = [
 	{
 		path: "/",
-		title: "Home",
+		title: "主页",
 	},
 	{
 		path: "/about/",
-		title: "About",
+		title: "关于",
 	},
 	{
 		path: "/posts/",
-		title: "Blog",
+		title: "文章",
 	},
 	{
 		path: "/notes/",
-		title: "Notes",
+		title: "随记",
 	},
 ];
 
